@@ -7,8 +7,51 @@
     <title>Weather Dashboard</title>
     <link rel="stylesheet" href="assets/style.css">
 </head>
-<body>
+
+<body onload="DefaultScreen()"
+    <center>
+        <h1 id="Para1">Weather Dashboard</h1>
+        <p id="inputContainer">City:<input type="text" id="cityInput"></p>
+        <button onclick="GetInfo()">Search</button>
+        <h2 id="cityName">PLACEHOLDER</h2>
+    </center>
+
     
+    <div id="weatherContainer">
+        <div id="iconsContainer">
+            <div class="icons">
+                <p class="weather" id="day1"></p>
+                <div class="image"><img src="/assets/images/circles.jpeg" class="imgClass" id="img1"></div>
+                <p class="minValues" id="day1Min">...</p>
+                <p class="maxValues" id="day1Max">...</p>
+            </div>
+            <div class="icons">
+                <p class="weather" id="day2"></p>
+                <div class="image"><img src="/assets/images/circles.jpeg" class="imgClass" id="img2"></div>
+                <p class="minValues" id="day2Min">...</p>
+                <p class="maxValues" id="day2Max">...</p>
+            </div>
+            <div class="icons">
+                <p class="weather" id="day3"></p>
+                <div class="image"><img src="/assets/images/circles.jpeg" class="imgClass" id="img3"></div>
+                <p class="minValues" id="day3Min">...</p>
+                <p class="maxValues" id="day3Max">...</p>
+            </div>
+            <div class="icons">
+                <p class="weather" id="day4"></p>
+                <div class="image"><img src="/assets/images/circles.jpeg" class="imgClass" id="img4"></div>
+                <p class="minValues" id="day4Min">...</p>
+                <p class="maxValues" id="day4Max">...</p>
+            </div>
+            <div class="icons">
+                <p class="weather" id="day5"></p>
+                <div class="image"><img src="/assets/images/circles.jpeg" class="imgClass" id="img5"></div>
+                <p class="minValues" id="day5Min">...</p>
+                <p class="maxValues" id="day5Max">...</p>
+            </div>
+        </div>
+    </div>
+</div>
 
 <script src="/assets/script.js"></script>
 </body>
